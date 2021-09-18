@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+/*navbar
+
+
+.navbar {
+    background-color: black !important;
+    width: 100%;
+}*/
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.nav-link, .dropdown-item {
+    color: grey !important;
+    font-weight: bolder;
+}
+
+.nav-link:hover:not(.active), .dropdown-item:hover {
+    background-color: #a7a7a7;
+    color: black !important;
+}
+
+.nav-linkjeans {
+    color: grey !important;
+    text-decoration: none !important;
+    font-weight: bolder;
+
+}
+
+.nav-link-contact {
+    color:black;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.nav-link-contact:hover {
+    background-color: #a7a7a7;
+    text-decoration: none;
+    color: black;
+}
+
+.bg-imagem {
+    height: 100%;
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-texto {
+    font-size: 2rem;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 0.7rem 1.6rem;
+    border-radius: 0;
+    margin: 0.7rem 0 1rem 1.8rem;
+}
+
+.card {
+    display: flex;
+    justify-content: scenter;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.subscribe {
+    background-color: black;
+    color: white;
+    height: 50vh;
+    padding: 2rem;
+}
+
+input {
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 2rem;
+}
+
+.btn-1 {
+    background-color:#f44336;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 0;
+    margin-bottom: 6rem;
+}
+
+.about a{
+    color: black;
+
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 8vh;
+    color: white;
+    padding: 0.8rem;
+}
+.btn-2{
+    background-color:black;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 0;
+    margin-bottom: 6rem;
+    width: 100%;
+
+}
+
+@media(min-width:574px){
+    .nav-link-contact {
+        display: none;
+    }
+
+    .bg-imagem{
+        height: 70vh;
+    }
+
+    .banner h2{
+        font-size: 4rem;
+    }
+
+    .row{
+        width:70%;
+        margin: 0 15rem;
+
+    }
+    .texto-item{
+        font-size: 3rem;
+    }
+
+    .subscribe{
+        height: 40vh;
+        margin: 2rem;
+    }
+}
+
